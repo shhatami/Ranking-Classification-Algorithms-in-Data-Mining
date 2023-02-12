@@ -1,13 +1,23 @@
-from   prettytable              import PrettyTable
+%load_ext autoreload
+%autoreload 2
+from IPython.display import Image
+from   collections              import defaultdict
+import networkx                 as nx
+from   prettytable              import PrettyTable  # Tables & matrix libraries
 import numpy                    as     np 
 import pandas                   as     pd
 import pylab                    as     pl
-import matplotlib.pyplot        as     plt
+import matplotlib.pyplot        as     plt # Tables & plots libraries
 import sklearn.metrics          as     met
 import sklearn.datasets         as     dt
-import sklearn.linear_model     as     li
+import sklearn.linear_model     as     li # Inequalities libraries
 import sklearn.model_selection  as     ms
 import scipy                    as     linalg
+
+# Naive Bayes model libraries
+from   pgmpy.models             import NaiveBayes, BayesianModel
+from   pgmpy.factors.discrete   import TabularCPD
+from   pgmpy.inference          import VariableElimination
 
 
 np.random.seed(0)
