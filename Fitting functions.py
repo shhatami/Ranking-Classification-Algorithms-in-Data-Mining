@@ -1,5 +1,5 @@
 %load_ext autoreload
-%autoreload 2
+%autoreload 2 
 from IPython.display import Image
 from   collections              import defaultdict
 import networkx                 as nx
