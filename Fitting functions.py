@@ -8,7 +8,7 @@ import numpy                    as     np
 import pandas                   as     pd
 import pylab                    as     pl
 import matplotlib.pyplot        as     plt # Tables & plots libraries
-import sklearn.metrics          as     met
+import sklearn.metrics          as     met 
 import sklearn.datasets         as     dt
 import sklearn.linear_model     as     li # Inequalities libraries
 import sklearn.model_selection  as     ms
