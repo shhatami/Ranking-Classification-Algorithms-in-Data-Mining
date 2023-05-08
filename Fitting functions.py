@@ -23,7 +23,7 @@ from   pgmpy.inference          import VariableElimination
 np.random.seed(0)
 IRIS = dt.load_iris()
 Table = PrettyTable(['Database','Attributes','NO of samples','NO of classes'])
-Table.add_row(['Canser','10','699','2'])
+Table.add_row(['Canser','10','699','2']) 
 Table.add_row(['adult','15','32561','2'])
 Table.add_row(['bridges.version1','13','108','7'])
 Table.add_row(['bridges.version2','13','108','7'])
