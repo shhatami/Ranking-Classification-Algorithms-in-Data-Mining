@@ -12,7 +12,7 @@ import sklearn.metrics          as     met
 import sklearn.datasets         as     dt
 import sklearn.linear_model     as     li # Inequalities libraries
 import sklearn.model_selection  as     ms
-import scipy                    as     linalg 
+import scipy                    as     linalg  
 
 # Naive Bayes model libraries
 from   pgmpy.models             import NaiveBayes, BayesianModel
