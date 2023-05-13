@@ -3,7 +3,7 @@
 from IPython.display import Image
 from   collections              import defaultdict
 from   prettytable              import PrettyTable  # Tables & matrix libraries
-import networkx                 as nx
+import networkx                 as     nx
 import numpy                    as     np 
 import pandas                   as     pd
 import pylab                    as     pl
